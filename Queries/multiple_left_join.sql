@@ -1,5 +1,5 @@
 use salestransaction;
-select   pii.ProductName , pii.ProductCategoryName ,di.CalendarYear , di.CalendarQuarter, di.MonthName , di.DayName ,  Quantity , fct.SalesAmount , fct.Cost , sp.StoreGeographyID ,ct.name as City , ct.id as CityCode
+select   pii.ProductName , pii.ProductCategoryName ,di.CalendarYear , di.CalendarQuarter, di.MonthName , di.DayName ,  fct.Quantity , fct.SalesAmount , fct.Cost , sp.StoreGeographyID ,ct.name as City , ct.id as CityCode
 from
 (
  (
